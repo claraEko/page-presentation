@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+body {
+  background-color: rgb(255, 133, 133);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 267px;
+}
+.eko0 {
+  margin-right: 200px;
+  width: 724px;
+  height: 535px;
+  flex-shrink: 0;
+}
+.titre1 {
+  color: #e8edf7;
+
+  text-align: center;
+  font-family: "Pixelify Sans";
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.reseau {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.fond {
+  margin-top: -410px;
+  width: 1384px;
+  height: 922px;
+}
